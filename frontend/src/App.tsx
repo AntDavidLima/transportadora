@@ -1,11 +1,17 @@
 import React from 'react';
 
-function App() {
+import Header from './components/Header';
+import Main from './pages/main';
+
+import './styles.css';
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Transportadora</h1>
+    <div>
+      <Header />
+      <Main />
     </div>
   );
-}
+};
 
 export default App;
